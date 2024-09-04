@@ -100,7 +100,7 @@ class HeartDiseaseApp:
         
 if __name__ == "__main__":
     # Import dataset
-        filePath = 'C:/Users/AmitG/Downloads/heart.csv'
+        filePath = 'C:/Users//Downloads/heart.csv' #Put Your User After "User/"
         dataSet = pd.read_csv(filePath, na_values={'RestingBP': 0, 'Cholesterol': 0})
 
     # Rest of the preprocessing steps (imputation, encoding, scaling)
